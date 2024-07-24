@@ -143,7 +143,7 @@ Nᴀᴍᴇ - {}"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️ ᴇɴᴛᴇʀ ᴏɴʟʏ ᴍᴏᴠɪᴇ ᴛɪᴛʟᴇ,ᴅᴏɴ'ᴛ ᴍᴇɴᴛɪᴏɴ ʏᴇᴀʀ & ʟᴀɴɢᴜᴀɢᴇ ᴏʀ ᴀɴʏᴛʜɪɴɢ..</b>"""
 
     SHORTLINK_INFO = """
 <b>──「<a href=https://t.me/MOVIE_LOVERZZ> DONATE & SUPPORT US </a> 」──
