@@ -1,13 +1,13 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
-
+    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {},
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a></blockquote>, ɪ ᴀᴍ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ʙᴏᴛ ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜɪɴɢ ᴀɴᴅ ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴏᴛ " ʙᴜᴛ ɴᴏ ❌ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅʙ ꜱᴏ ᴅᴏɴᴛ ꜱᴇᴀʀᴄʜ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ 😍</b>"""
+    
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Kgashok04>☢ Owner Of TTBots ☢</a></b>
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/TeamHMT_Bots>TT Bot Updates 👾</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/MOVIE_LOVERZZ>☢ MOVIE LOVERZZ ☢</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/MOVIE_LOVERZZ> Bot Updates 👾</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
@@ -15,9 +15,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-Wᴀɴᴛ ᴛʜɪs Bᴏᴛ Rᴇᴘᴏ? - <a href='https://github.com/TeamHMT/Auto-search-tamil-bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b> 🙃</b>
-
-Mᴏʀᴇ Iɴғᴏ Aʙᴏᴜᴛ ᴛʜɪs Rᴇᴘᴏ - <a href='https://t.me/TeamHMT_Bots/142'>ᴅᴏᴜʙʟᴇ ᴛᴀᴘ</a></b>
+</b>
 """
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -147,7 +145,7 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/TeamHMT_Bots/44> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+<b>──────「<a href=https://t.me/TeamT_Bots/44> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
 
 Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
 
@@ -199,9 +197,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/TeamHMT_Movie> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
-▫️<a href=https://t.me/+aLArXSwMmKlkN2Nl> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
+▫️<a href=https://t.me/TeamHMT_Movie> ᴍᴏᴠɪᴇ ʟᴏᴠᴇʀᴢᴢ  </a>
+▫️<a href=https://t.me/+ntGBpf8UhmFkNmQ1> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
