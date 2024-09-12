@@ -21,8 +21,7 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    # Instead of reacting, the bot replies with the emoji as a message
-    await message.reply("🔥")
+    await message.react(emoji="🔥")
     
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
