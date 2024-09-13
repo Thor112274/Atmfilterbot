@@ -33,7 +33,7 @@ from database.gfilters_mdb import (
 )
 import logging
 from urllib.parse import quote_plus
-import OS
+import os
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
