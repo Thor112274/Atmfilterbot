@@ -33,6 +33,7 @@ from database.gfilters_mdb import (
 )
 import logging
 from urllib.parse import quote_plus
+import OS
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
@@ -44,6 +45,8 @@ BUTTONS0 = {}
 BUTTONS1 = {}
 BUTTONS2 = {}
 SPELL_CHECK = {}
+
+req_channel = int(os.environ.get('REQ_CHANNEL', '-1002134871596'))
 # ENABLE_SHORTLINK = ""
 @Client.on_message(filters.private & filters.text & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
@@ -344,6 +347,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
 
     files, offset, total_results = await get_search_results(chat_id, search, offset=0, filter=True)
     if not files:
+        await client.send_message(req_channel, f"#REQUESTED_LOGS \n\nCONTENT NAME:**{search} \n**REQUESTED BY :** {message.from_user.first_name}\n**USER ID :**{message.from_user.id}",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Mark As Done",callback_data="close_data")]]))
         await query.answer("🚫 𝗡𝗼 𝗙𝗶𝗹𝗲 𝗪𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱 🚫", show_alert=1)
         return
     temp.GETALL[key] = files
