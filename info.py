@@ -48,8 +48,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "hulkboy11220")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream feature - @TeamHMT_Bots
-STREAM_BIN = environ.get("STREAM_BIN", "-1002006126502") #Log channel/Bin Channel id -100xxxxxxx
-STREAM_URL = environ.get("STREAM_URL", "https://player.mrfooll.xyz/") # https://example.com/ (ur Stream Url)
+STREAM_BIN = environ.get("STREAM_BIN", "-1002005906539") #Log channel/Bin Channel id -100xxxxxxx
+STREAM_URL = environ.get("STREAM_URL", "bots.hostingup.icu:9005/") # https://example.com/ (ur Stream Url)
 IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 #Use this feature, if you have deployed file to link bot. paste the app url with stream url and add filter bot as admin in bin channel and add id in stream bin
 
